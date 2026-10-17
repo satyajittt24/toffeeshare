@@ -1,0 +1,34 @@
+# ToffeeShare - Pura Internet Wala Setup (2 Minute)
+
+## Ye zip me kya hai?
+- server.js = signaling server (link connect karne ke liye)
+- public/index.html = aapki website
+- package.json
+
+## Deploy kaise kare? (Free)
+
+### STEP 1: GitHub pe dalo (30 sec)
+1. github.com pe jao, New Repository banao naam: toffeeshare
+2. Is zip ko extract karo, sab files upload karo
+
+### STEP 2: Railway pe deploy (1 minute)
+1. railway.app pe jao, Login with GitHub
+2. New Project -> Deploy from GitHub repo -> toffeeshare select karo
+3. Deploy par click karo - 1 min me ho jayega
+4. Settings -> Networking -> Generate Domain par click karo
+   Aapko milega: https://toffeeshare-xxx.up.railway.app
+
+BAS HO GAYA!
+
+### Ab kya hoga?
+- Aapki website: https://toffeeshare-xxx.up.railway.app
+- Koi bhi is link pe jayega to file bhej/receive kar sakta hai
+- File aapke server pe save NAI hogi - seedha phone to phone jayegi
+- Sender tab band karega to link expire
+
+### Test kaise kare?
+1. Apne phone me apni website kholo, file select karo
+2. Link copy karo, dusre phone/laptop pe kholo
+3. File turant transfer!
+
+Koi problem aaye to mujhe bolo.
